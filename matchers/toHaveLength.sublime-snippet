@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+toHaveLength(${1:4})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>toHaveLength</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+
+  <description>jest toHaveLength(4) arr/str length</description>
+  <scope>source.js</scope>
+</snippet>
