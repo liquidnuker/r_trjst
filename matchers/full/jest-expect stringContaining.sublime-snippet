@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+expect.stringContaining(${1:expectedStr})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jest-expect-stringContaining</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>jest expect.stringContaining() use inside toEqual</description>
+  <scope>source.js</scope>
+</snippet>

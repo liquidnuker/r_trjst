@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:defaultObj}).toMatchObject(${2:desiredObj});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>js-obj-expect-toMatchObject</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>jest expect(defaultObj).toMatchObject(desiredObj)</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+toContain(${1:})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jest-arr-toContain</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>jest arr toContain(...)</description>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+toHaveProperty('${1:property1}',${2: value1});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jest-obj-toHaveProperty()</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>jest if obj has property</description>
+  <scope>source.js</scope>
+</snippet>

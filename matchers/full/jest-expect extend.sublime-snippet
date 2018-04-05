@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+expect.extend({
+  ${1:shouldNotEqual}(received, argument) {
+    const pass = received !== argument;
+    if (pass) {
+      return {
+        message: () =>
+          `\${received}  not equal to \${argument}`,
+        pass: true,
+      };
+    } else {
+      return {
+        message: () => `\${received} should not equal \${argument}`,
+        pass: false,
+      };
+    }
+  },
+});
+
+test('customEqual', () => {
+  expect(100).${1:shouldNotEqual}(10);
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jest-expect-extend({...)</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>jest expect().customMatcher()</description>
+  <scope>source.js</scope>
+</snippet>
